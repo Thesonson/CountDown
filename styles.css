@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lato&family=Manrope:wght@800&family=Poppins&family=Red+Hat+Text:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Red Hat Text', sans-serif;
+    background-color:  hsl(235, 16%, 14%);
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.stars {
+    position: absolute;
+}
+
+.hills{
+    position: absolute;
+    bottom: 0;
+}
+
+.countdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.container h1{
+    color: white;
+    margin-bottom: 50px;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.countdown p{
+    padding: 20px;
+    background:  hsl(236, 21%, 26%);
+    border-radius: 5px;
+    color:  hsl(345, 95%, 68%);
+    font-size: 25px;
+    text-align: center;
+}
+
+.countdown div{
+    margin: 10px;
+}
+
+.countdown h3{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+    color:  hsl(237, 18%, 59%) ;
+}
+
+.attribution{
+    margin-top: 50px;
+    color:  hsl(237, 18%, 45%);
+    word-spacing: 2px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+.socials ul{
+    display: flex;
+    margin-top: 30px;
+}
+.socials ul li{
+    display: flex;
+    margin:  20px;
+    color: white;
+    cursor: pointer;
+}
+.socials ul li:hover{
+    color: hsl(345, 95%, 68%);
+    transition: 0.3s ease;
+}
